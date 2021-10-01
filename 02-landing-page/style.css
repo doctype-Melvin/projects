@@ -5,9 +5,6 @@
     flex-direction: column;
     margin: 0;
 }
-/*
-The whole page should be centered and have "whitespace" on both sides.
-*/
 
 /*Palette*/
 .colors {
@@ -19,10 +16,6 @@ The whole page should be centered and have "whitespace" on both sides.
 }
 
 /*Header section*/
-/*
-The right box should have a height. Insert photo!
-The button needs styling. 
-*/
 
 .header {
     background-color: #6a1a1a;
@@ -41,10 +34,6 @@ The button needs styling.
     font-size: 32px;
 }
 
-.nav {
-
-}
-
 ul {
     display: flex;
     list-style: none;
@@ -58,7 +47,7 @@ li {
 li a {
     text-decoration: none;
     color: #e2b27a;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -78,7 +67,6 @@ li a {
     flex: 1;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 10px;
 }
 
 .h1 {
@@ -116,8 +104,13 @@ li a {
     justify-content: center;
     align-items: center;
     color: #e2b27a;
-    border: 2px white solid;
+    
+    margin-left: 10px;
+}
 
+.img-top {
+   max-width: 100%;
+   height: auto; 
 }
 
 /*Second section*/
@@ -131,26 +124,29 @@ li a {
 
 .h2 {
     margin-top: 30px;
-
 }
 
 .boxes {
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    margin: 42px 0;
+    margin: 20px 0;
 }
 
 .box-container {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .box {
     flex-basis: 100px;
-    border: #6a1a1a solid 2px;
-    border-radius: 5px;
+}
+
+.img-box {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: fill;
 }
 
 .subtext {
@@ -168,7 +164,7 @@ li a {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 450px;
+    max-width: 650px;
     padding: 25px;
     
 }
@@ -189,9 +185,6 @@ li a {
 }
 
 /*Fourth section*/
-/*
-Button needs styling
-*/
 
 .fourth {
     display: flex;
@@ -206,18 +199,14 @@ Button needs styling
     flex-basis: 600px;
     background-color: hsl(8, 56%, 41%);
     color: #f4d03c;
-    padding: 15px 45px;
+    padding: 15px 65px;
     border-radius: 50px;
 }
 
-h2.info {
-
+.info p {
+    color: white;
+    font-size: 18px;
 }
-
-p.info {
-
-}
-
 
 /*Footer*/
 
