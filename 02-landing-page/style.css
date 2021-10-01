@@ -1,0 +1,232 @@
+.body {
+    min-height: 100vh;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    margin: 0;
+}
+/*
+The whole page should be centered and have "whitespace" on both sides.
+*/
+
+/*Palette*/
+.colors {
+    color:#6a1a1a;
+    color: #d47d43;
+    color: #f4d03c;
+    color: #e2b27a;
+    color: #a33e2e;
+}
+
+/*Header section*/
+/*
+The right box should have a height. Insert photo!
+The button needs styling. 
+*/
+
+.header {
+    background-color: #6a1a1a;
+    color: #e2b27a;
+    padding: 15px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.nav {
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: #e2b27a;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/*First section*/
+
+.first {
+    background-color: #6a1a1a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 250px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.h1 {
+    color: #e2b27a;
+}
+
+.para {
+    color: #e2b27a;
+    font-size: 18px;
+}
+
+.button {
+    background: #f4d03c;
+    border: #d47d43 solid 2px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6a1a1a;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #e2b27a;
+    color: #6a1a1a;
+    border: #fff solid 2px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #e2b27a;
+    border: 2px white solid;
+
+}
+
+/*Second section*/
+
+.second {
+    color: #6a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2 {
+    margin-top: 30px;
+
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 42px 0;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.box {
+    flex-basis: 100px;
+    border: #6a1a1a solid 2px;
+    border-radius: 5px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+/*Third section*/
+
+.third {
+    display: flex;
+    justify-content: center;
+    background-color: #e2b27a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    padding: 25px;
+    
+}
+
+.quote {
+    color: #6a1a1a;
+    font-style: italic;
+    font-size: 34px;
+}
+
+.reference {
+    color: #6a1a1a;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: flex-end;
+    margin-top: -30px;
+    
+}
+
+/*Fourth section*/
+/*
+Button needs styling
+*/
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 600px;
+    background-color: hsl(8, 56%, 41%);
+    color: #f4d03c;
+    padding: 15px 45px;
+    border-radius: 50px;
+}
+
+h2.info {
+
+}
+
+p.info {
+
+}
+
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a1a1a;
+    color: #e2b27a;
+    padding: 5px;
+    font-size: 18px;
+}
